@@ -3,7 +3,7 @@
 > One Ring to rule them all, One Ring to find them [...]
 > **--J.R.R. Tolkien's epigraph to _The Lord of the Rings_**
 
-This class exercise explores TBD...
+This class exercise explores more ways to refactor code to remove redundancy.
 
 ## Prerequisite Knowledge
 
