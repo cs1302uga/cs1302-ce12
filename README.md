@@ -81,20 +81,28 @@ command depends on your present working directory), then please note that contex
 1. Commit the changes to your local copy of the repository. 
    Be sure to include a good log message.
 
-1. Write the code to implement you approved design from the previous checkpoint. Make sure that
-   any types you create are in the `cs1302.ce12` package. Before you continue, make sure your
-   code compiles.
+1. Write the code to implement you approved design from the previous checkpoint. 
+   Make sure that any types you create are in the `cs1302.ce12` package. 
+   Before you continue, make sure your code compiles.
    
-1. Modify the `cs1302.ce12.Driver` class to utilize your redesign. 
-   Compile and run it.
-   What is the output?
-   
-1. Did the output match the output of the original driver?
+1. Modify the `cs1302.ce12.Driver` class to utilize your redesign.
+
+1. If you encounter any compililation errors:
+
+   1. Write the error down in your notes;
+   1. Fix the error in your code;
+   1. Recompile; then
+   1. Note the fix in your notes.
+   1. Repeat as needed.
+
+1. What is the output of running the `cs1302.ce12.Driver` class?
+   Did the output match the output of the original driver?
    Why or why not?
 
 **CHECKPOINT**
 
 1.
+
 1.
 
 <hr/>
