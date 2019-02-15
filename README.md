@@ -85,6 +85,12 @@ command depends on your present working directory), then please note that contex
    Make sure that any types you create are in the `cs1302.ce12` package. 
    Before you continue, make sure your code compiles.
    
+1. Tell Git to track the `.java` files you just created.
+   What command can be used to tell that they are now tracked?
+   
+1. Commit the changes to your local copy of the exercise repository.
+   Be sure to include a good log message.
+   
 1. Modify the `cs1302.ce12.Driver` class to utilize your redesign.
 
 1. If you encounter any compililation errors:
@@ -95,15 +101,16 @@ command depends on your present working directory), then please note that contex
    1. Note the fix in your notes.
    1. Repeat as needed.
 
+1. Commit the changes to your local copy of the exercise repository.
+   Be sure to include a good log message.
+
 1. What is the output of running the `cs1302.ce12.Driver` class?
    Did the output match the output of the original driver?
-   Why or why not?
 
 **CHECKPOINT**
 
-1.
 
-1.
+**NOT A CHECKPOINT**
 
 <hr/>
 
