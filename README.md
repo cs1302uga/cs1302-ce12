@@ -81,7 +81,7 @@ command depends on your present working directory), then please note that contex
 1. Commit the changes to your local copy of the repository. 
    Be sure to include a good log message.
 
-1. Write the code to implement you approved design from the previous checkpoint. 
+1. Write and document the code to implement your approved design from the previous checkpoint.
    Make sure that any types you create are in the `cs1302.ce12` package. 
    Before you continue, make sure your code compiles.
    
@@ -90,6 +90,15 @@ command depends on your present working directory), then please note that contex
    
 1. Commit the changes to your local copy of the exercise repository.
    Be sure to include a good log message.
+   
+1. Generate the API documentation website for all of the code in the `cs1302` package 
+   into the `doc` directory. Host the documentation on Nike using `cs1302-ce12-doc` as 
+   the name for your symbolic link. What is the URL to your hosted website?
+   
+1. What is sum of the line counts for the `.java` files involved in your
+   redesign?
+   
+**CHECKPOINT**
    
 1. Modify the `cs1302.ce12.Driver` class to utilize your redesign.
 
@@ -106,11 +115,11 @@ command depends on your present working directory), then please note that contex
 
 1. What is the output of running the `cs1302.ce12.Driver` class?
    Did the output match the output of the original driver?
+   
+1. **[TRICKY]** What is a potential con to your redesign?
+   Consider outside perspectives.
 
 **CHECKPOINT**
-
-
-**NOT A CHECKPOINT**
 
 <hr/>
 
