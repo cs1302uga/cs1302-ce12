@@ -26,7 +26,29 @@ command depends on your present working directory), then please note that contex
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce12.git
    ```
 
-1. 
+1. Change into the `cs1302-ce12` directory that was just created and look around. There should be
+   multiple Java files contained within the directory structure. To see a listing of all of the 
+   files under the `src` subdirectory, use the `find` command as follows:
+   
+   ```
+   $ find src
+   ```
+
+   For each Java file under the `src` subdirectory, fill out a table similar to the following:
+   
+   | File Name | Java Type? | FQN | Depends On | Line Count |
+   |-----------|------------|-----|------------|------------|
+   |-----------|------------|-----|------------|------------|
+   |-----------|------------|-----|------------|------------|
+   |-----------|------------|-----|------------|------------|
+
+   The "Java Type" column should list the outermost type in the file (e.g., class, interface, enum, etc). 
+   The "Depends On" column should list any Java types in the starter code that the file
+   is dependent upon. To determine the "Line Count", you may use the `wc` command.
+   
+1. In your notes, draw a complete, proper UML diagram for all of the code contained in the
+   starter code. You might need to devote an entire page to this. We recommend using a pencil.
+   
    
 **CHECKPOINT**
 
