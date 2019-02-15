@@ -48,12 +48,48 @@ command depends on your present working directory), then please note that contex
    
 1. In your notes, draw a complete, proper UML diagram for all of the code contained in the
    starter code. You might need to devote an entire page to this. We recommend using a pencil.
+   Be sure to include generalization (`extends`), realization (`implements`), and 
+   dependency arrows. Do not list inherited members unless they are explicitly overriden.
    
+1. Compile all of the starter code and run the `cs1302.ce12.Driver` class.
+   What is the output?
    
+1. It looks like there might be some redundancy among the different container classes.
+   In your notes, draw a new UML diagram that reduces the overall redundancy by adding
+   or removing classes and interfaces and making use of appropriate inter-class
+   associations. 
+   
+1. How does your redesign reduce redundancy? Justify your answer. 
+
+   **NOTE:** If the instructor or PLA thinks that further redundancy can be eliminated, then 
+   they may ask you to repeat these last two steps before signing off your checkpoint. If you're 
+   asked to repeat the last two steps, then don't scratch your work! Keep your existing designs
+   and notes available so that you can reflect on the evolution of your design choices.
+
 **CHECKPOINT**
 
-1.
-1.
+1. Make sure you are in the `cs1302-ce12` directory. Delete the code for the container classes 
+   using Git and the `rm` command:
+   
+   ```
+   $ git rm -rf src/cs1302/ce12/*Container.java
+   ```
+   
+1. What is the complete output of the Git `status` command?
+
+1. Commit the changes to your local copy of the repository. 
+   Be sure to include a good log message.
+
+1. Write the code to implement you approved design from the previous checkpoint. Make sure that
+   any types you create are in the `cs1302.ce12` package. Before you continue, make sure your
+   code compiles.
+   
+1. Modify the `cs1302.ce12.Driver` class to utilize your redesign. 
+   Compile and run it.
+   What is the output?
+   
+1. Did the output match the output of the original driver?
+   Why or why not?
 
 **CHECKPOINT**
 
