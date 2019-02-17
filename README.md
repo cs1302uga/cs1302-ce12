@@ -52,8 +52,8 @@ command depends on your present working directory), then please note that contex
    Be sure to include generalization (`extends`), realization (`implements`), and 
    dependency arrows. Do not list inherited members unless they are explicitly overriden.
    
-1. Compile all of the starter code and run the `cs1302.ce12.Driver` class.
-   What is the output?
+1. Compile all of the starter code using `bin` as the default package for compiled code.
+   Run the `cs1302.ce12.Driver` class. What is the output?
    
 1. It looks like there might be some redundancy among the different container classes.
    In your notes, draw a new UML diagram that reduces the overall redundancy by adding
