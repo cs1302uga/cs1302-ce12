@@ -1,4 +1,4 @@
-# cs1302-ce12
+# cs1302-ce12 Subsumption Trade-offs
 
 > One Ring to rule them all, One Ring to find them [...]
 > **--J.R.R. Tolkien's epigraph to _The Lord of the Rings_**
