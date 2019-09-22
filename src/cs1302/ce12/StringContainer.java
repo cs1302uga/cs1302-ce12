@@ -20,7 +20,7 @@ public class StringContainer {
      * @throws NullPointerException if the contents are null.
      */
     public StringContainer(String contents) {
-	set(contents);
+        set(contents);
     } // StringContainer
 
     /**
@@ -31,15 +31,15 @@ public class StringContainer {
      * @throws NullPointerException if the contents are null.
      */
     public void set(String contents) {
-	Utility.nullCheck("StringContainer: set", contents);
-	this.contents = contents;
+        Utility.nullCheck("StringContainer: set", contents);
+        this.contents = contents;
     } // set
 
     /**
      * Returns the contents of this {@code StringContainer} object.
      */
     public String get() {
-	return contents;
+        return contents;
     } // get
 
 } // StringContainer

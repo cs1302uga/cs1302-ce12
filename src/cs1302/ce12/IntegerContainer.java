@@ -20,7 +20,7 @@ public class IntegerContainer {
      * @throws NullPointerException if the contents are null.
      */
     public IntegerContainer(Integer contents) {
-	set(contents);
+        set(contents);
     } // IntegerContainer
 
     /**
@@ -31,15 +31,15 @@ public class IntegerContainer {
      * @throws NullPointerException if the contents are null.
      */
     public void set(Integer contents) {
-	Utility.nullCheck("IntegerContainer: set", contents);
-	this.contents = contents;
+        Utility.nullCheck("IntegerContainer: set", contents);
+        this.contents = contents;
     } // set
 
     /**
      * Returns the contents of this {@code IntegerContainer} object.
      */
     public Integer get() {
-	return contents;
+        return contents;
     } // get
 
 } // IntegerContainer

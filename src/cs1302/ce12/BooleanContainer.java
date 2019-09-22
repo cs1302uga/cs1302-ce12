@@ -20,7 +20,7 @@ public class BooleanContainer {
      * @throws NullPointerException if the contents are null.
      */
     public BooleanContainer(Boolean contents) {
-	set(contents);
+        set(contents);
     } // BooleanContainer
 
     /**
@@ -31,15 +31,15 @@ public class BooleanContainer {
      * @throws NullPointerException if the contents are null.
      */
     public void set(Boolean contents) {
-	Utility.nullCheck("BooleanContainer: set", contents);
-	this.contents = contents;
+        Utility.nullCheck("BooleanContainer: set", contents);
+        this.contents = contents;
     } // set
 
     /**
      * Returns the contents of this {@code BooleanContainer} object.
      */
     public Boolean get() {
-	return contents;
+        return contents;
     } // get
 
 } // BooleanContainer

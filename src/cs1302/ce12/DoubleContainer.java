@@ -20,7 +20,7 @@ public class DoubleContainer {
      * @throws NullPointerException if the contents are null.
      */
     public DoubleContainer(Double contents) {
-	set(contents);
+        set(contents);
     } // DoubleContainer
 
     /**
@@ -31,15 +31,15 @@ public class DoubleContainer {
      * @throws NullPointerException if the contents are null.
      */
     public void set(Double contents) {
-	Utility.nullCheck("DoubleContainer: set", contents);
-	this.contents = contents;
+        Utility.nullCheck("DoubleContainer: set", contents);
+        this.contents = contents;
     } // set
 
     /**
      * Returns the contents of this {@code DoubleContainer} object.
      */
     public Double get() {
-	return contents;
+        return contents;
     } // get
 
 } // DoubleContainer
