@@ -10,6 +10,12 @@ This class exercise explores more ways to refactor code to remove redundancy.
 * Reference variables.
 * [`Object` API Documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
 
+## Course-Specific Learning Outcomes
+
+* **LO2.a:** Identify redundancy in a set of classes and interfaces, then refactor using inheritance and 
+polymorphism to emphasize code reuse.
+* **LO3.c:** Generate user-facing API documentation for a software solution.
+
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
