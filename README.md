@@ -33,37 +33,22 @@ command depends on your present working directory), then please note that contex
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce12.git
    ```
 
-1. Change into the `cs1302-ce12` directory that was just created and look around. There should be
-   multiple Java files contained within the directory structure. To see a listing of all of the 
-   files under the `src` subdirectory, use the `find` command as follows:
+1. Change into the `cs1302-ce12` directory that was just created and look around. There are five 
+   classes contained in the subfolders (excluding the `Driver` program). Take a few minutes to look 
+   over the source code and the UML diagram below.
    
-   ```
-   $ find src
-   ```
+   ![UML Class Diagram for Starter Code](res/ce12.png)
 
-   For each Java file under the `src` subdirectory, fill out a table similar to the following:
-   
-   | File Name | Java Type? | FQN | Depends On | Line Count |
-   |-----------|------------|-----|------------|------------|
-   |-----------|------------|-----|------------|------------|
-   |-----------|------------|-----|------------|------------|
-   |-----------|------------|-----|------------|------------|
-
-   The "Java Type" column should list the outermost type in the file (e.g., class, interface, enum, etc). 
-   The "Depends On" column should list any Java types in the starter code that the file
-   is dependent upon. To determine the "Line Count", you may use the `wc` command.
-   
-1. In your notes, draw a complete, proper UML diagram for all of the code contained in the
-   starter code. You might need to devote an entire page to this. We recommend using a pencil.
-   Be sure to include generalization (`extends`), realization (`implements`), and 
-   dependency arrows. Do not list inherited members unless they are explicitly overriden.
+1. Use emacs to open the `Driver.java` file. In your notes, write the expected output for the four
+   print statements contained in the code.
    
 1. Compile all of the starter code using `bin` as the default package for compiled code.
-   Run the `cs1302.ce12.Driver` class. What is the output?
+   Run the `cs1302.ce12.Driver` class. Does the output match what you wrote in the previous step?
+   If not, explain why not.
    
-1. It looks like there might be some redundancy among the different container classes.
-   In your notes, draw a new UML diagram that reduces the overall redundancy by adding
-   or removing classes and interfaces and making use of appropriate inter-class
+1. As you likely saw while exploring the UML diagram above, there is some redundancy among 
+   the different container classes. In your notes, draw a new UML diagram that reduces the overall 
+   redundancy by adding or removing classes and/or interfaces and making use of appropriate inter-class
    associations. 
    
 1. How does your redesign reduce redundancy? Justify your answer. 
@@ -82,17 +67,19 @@ command depends on your present working directory), then please note that contex
    $ git rm -rf src/cs1302/ce12/*Container.java
    ```
    
-1. What is the complete output of the Git `status` command?
+1. What is the output of the Git `status` command?
 
 1. Commit the changes to your local copy of the repository. 
    Be sure to include a good log message.
 
 1. Write and document the code to implement your approved design from the previous checkpoint.
    Make sure that any types you create are in the `cs1302.ce12` package. 
-   Before you continue, make sure your code compiles.
+   Before you continue, **make sure your code compiles and passes the checkstyle audit**.
    
+1. Does the output of `git status` show any files as untracked? If so, which ones?
+
 1. Tell Git to track the `.java` files you just created.
-   What command can be used to tell that they are now tracked?
+   Using `git status`, how can you tell the file is now tracked?
    
 1. Commit the changes to your local copy of the exercise repository.
    Be sure to include a good log message.
@@ -100,9 +87,6 @@ command depends on your present working directory), then please note that contex
 1. Generate the API documentation website for all of the code in the `cs1302` package 
    into the `doc` directory. Host the documentation on Nike using `cs1302-ce12-doc` as 
    the name for your symbolic link. What is the URL to your hosted website?
-   
-1. What is sum of the line counts for the `.java` files involved in your
-   redesign?
    
 **CHECKPOINT**
    
