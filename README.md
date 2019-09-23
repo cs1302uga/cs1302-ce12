@@ -54,7 +54,7 @@ command depends on your present working directory), then please note that contex
    associations.
    
    * **Do NOT write any actual code yet!** We want to approve your UML design before you write
-     any code as it's generally easier to update a diagram.
+     any code as it's generally easier to update a diagram if changes need to be made.
      
    * **NOTE:** Currently, there is no inheritance or interface relationships in the diagram. This
      step _can_ be solved without either. One way to remove reduncy would be to replace a set of
