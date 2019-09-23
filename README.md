@@ -14,7 +14,7 @@ This class exercise explores more ways to refactor code to remove redundancy.
 
 * **LO2.a:** Identify redundancy in a set of classes and interfaces, then refactor using inheritance and 
 polymorphism to emphasize code reuse.
-* **LO3.c:** Generate user-facing API documentation for a software solution.
+* **LO4.d:** Utilize  inheritance-based polymorphism in a software solution.
 
 ## Questions
 
@@ -83,10 +83,6 @@ command depends on your present working directory), then please note that contex
    
 1. Commit the changes to your local copy of the exercise repository.
    Be sure to include a good log message.
-   
-1. Generate the API documentation website for all of the code in the `cs1302` package 
-   into the `doc` directory. Host the documentation on Nike using `cs1302-ce12-doc` as 
-   the name for your symbolic link. What is the URL to your hosted website?
    
 **CHECKPOINT**
    
