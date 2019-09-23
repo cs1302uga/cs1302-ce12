@@ -1,5 +1,7 @@
 # cs1302-ce12 Subsumption Trade-offs
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 > One Ring to rule them all, One Ring to find them [...]
 > **--J.R.R. Tolkien's epigraph to _The Lord of the Rings_**
 
@@ -102,7 +104,7 @@ command depends on your present working directory), then please note that contex
 1. What is the output of running the `cs1302.ce12.Driver` class?
    Did the output match the output of the original driver?
    
-1. **[TRICKY]** What is a potential con to your redesign?
+1. **[TRICKY]** What is a potential con/negative to your redesign?
    Consider outside perspectives.
 
 **CHECKPOINT**
