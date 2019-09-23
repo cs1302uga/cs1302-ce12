@@ -41,7 +41,7 @@ command depends on your present working directory), then please note that contex
    
    ![UML Class Diagram for Starter Code](res/ce12.png)
 
-1. Use emacs to open the `Driver.java` file. In your notes, write the expected output for the four
+1. Use Emacs to open the `Driver.java` file. In your notes, write the expected output for the four
    print statements contained in the code.
    
 1. Compile all of the starter code using `bin` as the default package for compiled code.
@@ -49,9 +49,16 @@ command depends on your present working directory), then please note that contex
    If not, explain why not.
    
 1. As you likely saw while exploring the UML diagram above, there is some redundancy among 
-   the different container classes. In your notes, draw a new UML diagram that reduces the overall 
+   the different container classes. In your notes, **draw a new UML diagram** that reduces the overall 
    redundancy by adding or removing classes and/or interfaces and making use of appropriate inter-class
-   associations. 
+   associations.
+   
+   * **Do NOT write any actual code yet!** We want to approve your UML design before you write the
+     since it's generally easier to update a diagram.
+     
+   * **NOTE:** Currently, there is no inheritance or interface relationships in the diagram. This
+     step _can_ be solved without either. One way to remove reduncy would be to replace a set of
+     classes with a single class that does the same thing. 
    
 1. How does your redesign reduce redundancy? Justify your answer. 
 
