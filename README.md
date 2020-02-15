@@ -1,6 +1,8 @@
 # cs1302-ce12 Subsumption Trade-offs
 
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+<!--[Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)-->
 
 > One Ring to rule them all, One Ring to find them [...]
 > **--J.R.R. Tolkien's epigraph to _The Lord of the Rings_**
@@ -83,13 +85,14 @@ command depends on your present working directory), then please note that contex
 
 1. Write and document the code to implement your approved design from the previous checkpoint.
    Make sure that any types you create are in the `cs1302.ce12` package. 
-   Before you continue, **make sure your code compiles and passes the checkstyle audit**.
    
 1. Does the output of `git status` show any files as untracked? If so, which ones?
 
 1. Tell Git to track the `.java` files you just created.
    Using `git status`, how can you tell the file is now tracked?
-   
+
+1. Make sure your code passes the `checkstyle` audit.
+
 1. Commit the changes to your local copy of the exercise repository.
    Be sure to include a good log message.
    
@@ -104,6 +107,8 @@ command depends on your present working directory), then please note that contex
    1. Recompile; then
    1. Note the fix in your notes.
    1. Repeat as needed.
+
+1. Make sure your code passes the `checkstyle` audit.
 
 1. Commit the changes to your local copy of the exercise repository.
    Be sure to include a good log message.
