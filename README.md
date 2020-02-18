@@ -6,7 +6,10 @@
 > One Ring to rule them all, One Ring to find them [...]
 > **--J.R.R. Tolkien's epigraph to _The Lord of the Rings_**
 
-This class exercise explores more ways to refactor code to remove redundancy.
+This class exercise explores more ways to refactor code to remove redundancy. The particular
+way in which you are asked to refactor in this exercise is specifically forced in order to
+motivate the alternative approach presented in a later exercise; however, both approaches
+have their particular merits and trade-offs. 
 
 ## Prerequisite Knowledge
 
