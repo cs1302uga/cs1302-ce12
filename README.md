@@ -1,6 +1,6 @@
 # cs1302-ce12 Subsumption Trade-offs
 
-[Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
 ![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)
 
 > One Ring to rule them all, One Ring to find them [...]
