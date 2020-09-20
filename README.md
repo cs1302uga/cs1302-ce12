@@ -14,7 +14,7 @@ have their particular merits and trade-offs.
 ## Prerequisite Knowledge
 
 * Reference variables.
-* [`Object` API Documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
+* [`Object` API Documentation](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html)
 
 ## Course-Specific Learning Outcomes
 
@@ -25,15 +25,17 @@ polymorphism to emphasize code reuse.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
-### Getting Started
+## Exercise Steps
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce12`:
+### Checkpoint 1 Steps - Getting Started
+
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce12`:
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce12.git
@@ -71,7 +73,13 @@ command depends on your present working directory), then please note that contex
    asked to repeat the last two steps, then don't scratch your work! Keep your existing designs
    and notes available so that you can reflect on the evolution of your design choices.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
 
 1. Make sure you are in the `cs1302-ce12` directory. Delete the code for the container classes 
    using Git and the `rm` command:
@@ -98,8 +106,14 @@ command depends on your present working directory), then please note that contex
 1. Commit the changes to your local copy of the exercise repository.
    Be sure to include a good log message.
    
-**CHECKPOINT**
-   
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps
+
 1. Modify the `cs1302.ce12.Driver` class to utilize your redesign.
 
 1. If you encounter any compililation errors:
@@ -121,7 +135,51 @@ command depends on your present working directory), then please note that contex
 1. **[TRICKY]** What is a potential con/negative to your redesign?
    Consider outside perspectives.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce10`
+   directory with the following information.
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. The full link to the website generated in this exercise.
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce10-doc
+   ```
+
+1. Change directories to the parent of `cs1302-ce10` (e.g., `cd ..` from `cs1302-ce10`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce10 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
 
 <hr/>
 
