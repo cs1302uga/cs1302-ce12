@@ -13,7 +13,7 @@ have their particular merits and trade-offs.
 ## Prerequisite Knowledge
 
 * Reference variables.
-* [`Object` API Documentation](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html)
+* [`Object` API Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html)
 
 ## Course-Specific Learning Outcomes
 
